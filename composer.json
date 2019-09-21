@@ -1,0 +1,19 @@
+{
+    "name": "alexvergara/alpaca-test-theme",
+    "description": "M2Challenge Alex Test theme (Alpaca)",
+    "license": "MIT",
+    "type": "magento2-theme",
+    "version": "1.0.0",
+    "require": {
+      "php": "~5.5.0|~5.6.0|~7.0.0",
+      "magento/framework": "*",
+      "snowdog/module-alpaca-components": "~1.3.0",
+      "alexvergara/alpaca-test-components": "^1.0",
+      "snowdog/theme-frontend-alpaca": "^1.3"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
